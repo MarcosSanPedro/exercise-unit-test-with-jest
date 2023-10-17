@@ -14,14 +14,14 @@ function usdToYen(usd){
     if(usd<0){
         console.warn("no negative numbers")
     }
-    return usd*127.9
+    return usd*149.58
 }
 
 function yenToPound(yen){
     if(yen<0){
         console.warn("no negative numbers")
     }
-    return yen*0.8
+    return yen*0.0055
 }
 
 module.exports ={euroToUsd, usdToYen, yenToPound ,sum};

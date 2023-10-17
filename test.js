@@ -21,7 +21,7 @@ test("one dolar should be 127.9 yens", function(){
     const {usdToYen} = require('./app.js')
  
     
-     expect(usdToYen(10)).toBe(1279);
+     expect(usdToYen(1000)).toBe(149580);
 })
 
 test("one yen should be 0.8 british pund", function(){
@@ -29,7 +29,7 @@ test("one yen should be 0.8 british pund", function(){
  
   
 
-     expect(yenToPound(20)).toBe(16);
+     expect(yenToPound(10000)).toBe(55);
 })
 
 
